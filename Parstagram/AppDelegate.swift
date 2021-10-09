@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let parseConfig = ParseClientConfiguration {
+                    $0.applicationId = "TMt4VRsrdXf8zUWgoPvhQhyWTxPnbQ8i56TaUmvH" // <- UPDATE
+                    $0.clientKey = "5KEqnaEGefAoh0tdb7Q5ujgx37HHBl5RAk2csodY" // <- UPDATE
+                    $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
+        
+        
+//        let api = new ParseServer({
+//          ...,
+//          // Make sure to define liveQuery AND classNames
+//          liveQuery: {
+//            // define your ParseObject names here
+//            classNames: ['Post', 'Comment']
+//          }
+//        });
+        
         return true
     }
 
