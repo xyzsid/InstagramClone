@@ -49,6 +49,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/lUBKTEK.gif' title='Video Walkthrough' width='' alt='Restart Video Walkthrough' />
-<img src='https://i.imgur.com/aL0Ijrv.gif' title='Video Walkthrough' width='' alt='Logout Video Walkthrough' />
-<img src='https://i.imgur.com/hBQyFd3.gif' title='Video Walkthrough' width='' alt='Display Comments Video Walkthrough' />
+<img src='https://i.imgur.com/lUBKTEK.gif' title='Video Walkthrough' width='' alt='Restart Video Walkthrough' /> <img src='https://i.imgur.com/aL0Ijrv.gif' title='Video Walkthrough' width='' alt='Logout Video Walkthrough' /> <img src='https://i.imgur.com/hBQyFd3.gif' title='Video Walkthrough' width='' alt='Display Comments Video Walkthrough' />
